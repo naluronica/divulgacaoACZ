@@ -87,18 +87,24 @@
         font-size: 14px;
     }
 
-    .social-midias{
+    .social-midias {
         margin-top: 20px;
         display: flex;
         justify-content: center;
         gap: 10%;
-        
+        white-space: nowrap;
     }
-
-    .social-midias img{
+    
+    .social-midias img {
         width: 30px;
         height: auto;
+        transition: transform 0.1s ease-out; /* Transição mais suave */
     }
+    
+    .social-midias img:hover {
+        transform: scale(1.1); /* Aumenta suavemente */
+    }
+    
 
     .tema{
         margin: 20px;
