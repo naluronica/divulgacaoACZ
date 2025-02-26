@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anna carolina • bookgram</title>
+    <!-- Link para o CSS responsivo -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- Ícone da guia da página -->
+    <link rel="icon" href="./imagens/Logo.png">
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Versão Mobile -->
+    <div class="mobile-version">
+        <header class="cabecalho">
+            <img class="logo" src="https://ugc.production.linktr.ee/83ccfbb2-9ddd-4017-9053-0dc460e507b5_8a304dde757052ac77adac8af9c67e94.jpeg" alt="Profile">
+            <p class="title"> <strong>anna carolina • bookgram</strong> </p>
+            <p class="bio">📖 • é, só falo de livros</p>
+            <div class="social-midias">
+                <a href="Instagram.com/readingw.anna"><img src="./imagens/insta_logo.png" alt="insta_logo"></a>
+                <a href="https://www.tiktok.com/@readingw.annaa?_t=ZM-8uFBzX0D4Ja&_r=1"><img src="./imagens/tiktok_logo.png" alt="tiktok_logo"></a>
+                <a href="https://www.threads.net/@readingw.anna"><img src="./imagens/threads_logo.png" alt="threads_logo"></a>
+            </div>
+        </header>
+
+        <div class="corpo">
+
+            <p class="tema"><strong>WATTPAD</strong></p>
+            <div id="livros-container-wtt"></div>
+
+            <p class="tema"><strong>AMAZON</strong></p>
+            <div id="livros-container-amz"></div>
+            
+        </div>
+        <script type="module">
+            async function carregarLivrosWTT() {
+                try {
+                    const response = await fetch('./livros/livros_wtt.json'); // Carrega o JSON
+                    if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
+        
+                    const livros = await response.json(); // Converte para JSON
+                    var container = document.getElementById("livros-container-wtt");
+        
+                    livros.forEach(function(livro) {
+                        var botao = document.createElement("a");
+                        botao.classList.add("botao");
+                        botao.href = livro.link;
+                        botao.textContent = `${livro.titulo} - ${livro.autor} ✨️`;
+                        botao.target = "_blank";
+                        container.appendChild(botao);
+                    });
+                } catch (error) {
+                    console.error("Erro ao carregar os livros:", error);
+                }
+            }
+
+            async function carregarLivrosAMZ() {
+                try {
+                    const response = await fetch('./livros/livros_amz.json'); // Carrega o JSON
+                    if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
+        
+                    const livros = await response.json(); // Converte para JSON
+                    var container = document.getElementById("livros-container-amz");
+        
+                    livros.forEach(function(livro) {
+                        var botao = document.createElement("a");
+                        botao.classList.add("botao");
+                        botao.href = livro.link;
+                        botao.textContent = `${livro.titulo} - ${livro.autor} ✨️`;
+                        botao.target = "_blank";
+                        container.appendChild(botao);
+                    });
+                } catch (error) {
+                    console.error("Erro ao carregar os livros:", error);
+                }
+            }
+        
+            carregarLivrosWTT();
+            carregarLivrosAMZ();
+        </script>
+        
+    </div>
+
+    <!-- Versão Desktop -->
+    <div class="desktop-version">
+        <div class="menu">
+            <!--Opções de acesso-->
+
+            <div class="toggle"><img src="./imagens/Logo.png"/></div>
+            <li style="--i:0;">
+                <a href="mailto:readingw.anna@gmail.com " title="Contate pelo E-mail"><ion-icon name="at-outline"></ion-icon></a>
+            </li>
+            <li style="--i:1;">
+                <a href="Instagram.com/readingw.anna" title="Acompanhe no Insta!"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li style="--i:2;">
+                <a href="https://www.tiktok.com/@readingw.annaa?_t=ZM-8uFBzX0D4Ja&_r=1" title="Acompanhe no TikTok!"><ion-icon name="logo-tiktok"></ion-icon></a>
+            </li>
+            <li style="--i:3;">
+                <a href="https://drive.google.com/file/d/1gL7e5EQ5L4kF5JEIGPHdYoX80mpD8rpc/view?usp=drivesdk " title="Midia Kit!"><ion-icon name="bag-handle-outline"></ion-icon></a>
+            </li>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script>
+            let toggle = document.querySelector('.toggle');
+            let menu = document.querySelector('.menu');
+
+            toggle.onclick = function () {
+                menu.classList.toggle('active');
+            }
+        </script>
+    </div>
+
+</body>
+</html>
