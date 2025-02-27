@@ -26,23 +26,40 @@ async function carregarLivrosAMZ() {
   }
 }
 
-// Renderiza os livros de acordo com o que estiver digitado no campo de busca
+// Função para normalizar: remove pontuação e converte para minúsculo
+function normalizarTexto(texto) {
+  // remove qualquer caractere que não seja letra, número ou espaço
+  // e converte para minúsculo.
+  return texto
+    .toLowerCase()
+    .replace(/[^\w\s]/g, ''); // remove pontuação e símbolos
+}
+
+// Renderiza os livros com base no que for digitado
 function renderizarLivros() {
-  const valorBusca = document.getElementById("search-bar").value.toLowerCase();
+  const valorBusca = document.getElementById("search-bar").value;
   
+  // Normaliza o termo buscado
+  const buscaNormalizada = normalizarTexto(valorBusca);
+
   const containerWTT = document.getElementById("livros-container-wtt");
   const containerAMZ = document.getElementById("livros-container-amz");
-  
+
   // Limpa o conteúdo atual
   containerWTT.innerHTML = "";
   containerAMZ.innerHTML = "";
 
   // Filtra e cria links para cada livro do Wattpad
   livrosWTT
-    .filter(livro => 
-      livro.titulo.toLowerCase().includes(valorBusca) ||
-      livro.autor.toLowerCase().includes(valorBusca)
-    )
+    .filter(livro => {
+      const tituloNormalizado = normalizarTexto(livro.titulo);
+      const autorNormalizado = normalizarTexto(livro.autor);
+
+      return (
+        tituloNormalizado.includes(buscaNormalizada) ||
+        autorNormalizado.includes(buscaNormalizada)
+      );
+    })
     .forEach(livro => {
       const botao = document.createElement("a");
       botao.classList.add("botao");
@@ -54,10 +71,15 @@ function renderizarLivros() {
 
   // Filtra e cria links para cada livro da Amazon
   livrosAMZ
-    .filter(livro => 
-      livro.titulo.toLowerCase().includes(valorBusca) ||
-      livro.autor.toLowerCase().includes(valorBusca)
-    )
+    .filter(livro => {
+      const tituloNormalizado = normalizarTexto(livro.titulo);
+      const autorNormalizado = normalizarTexto(livro.autor);
+
+      return (
+        tituloNormalizado.includes(buscaNormalizada) ||
+        autorNormalizado.includes(buscaNormalizada)
+      );
+    })
     .forEach(livro => {
       const botao = document.createElement("a");
       botao.classList.add("botao");
