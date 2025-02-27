@@ -244,3 +244,28 @@
         transform: rotate(360deg);
     }
 }
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+  }
+  
+  .search-container input {
+    width: 75vw;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #000;
+    font-family: 'Bitter', serif;
+    font-size: 14px;
+    border: 2px solid #ffffff;
+    outline: none;
+    box-shadow: none; 
+    
+    transition: all 0.2s ease-in-out;
+  }
+  
+  

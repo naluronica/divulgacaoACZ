@@ -25,62 +25,18 @@
             </div>
         </header>
 
-        <div class="corpo">
-
-            <p class="tema"><strong>WATTPAD</strong></p>
-            <div id="livros-container-wtt"></div>
-
-            <p class="tema"><strong>AMAZON</strong></p>
-            <div id="livros-container-amz"></div>
-            
+        <!-- Campo de busca -->
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Buscar livro ou autor(a)...">
         </div>
-        <script type="module">
-            async function carregarLivrosWTT() {
-                try {
-                    const response = await fetch('./livros/livros_wtt.json'); // Carrega o JSON
-                    if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
-        
-                    const livros = await response.json(); // Converte para JSON
-                    var container = document.getElementById("livros-container-wtt");
-        
-                    livros.forEach(function(livro) {
-                        var botao = document.createElement("a");
-                        botao.classList.add("botao");
-                        botao.href = livro.link;
-                        botao.textContent = `${livro.titulo} - ${livro.autor} ✨️`;
-                        botao.target = "_blank";
-                        container.appendChild(botao);
-                    });
-                } catch (error) {
-                    console.error("Erro ao carregar os livros:", error);
-                }
-            }
 
-            async function carregarLivrosAMZ() {
-                try {
-                    const response = await fetch('./livros/livros_amz.json'); // Carrega o JSON
-                    if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
-        
-                    const livros = await response.json(); // Converte para JSON
-                    var container = document.getElementById("livros-container-amz");
-        
-                    livros.forEach(function(livro) {
-                        var botao = document.createElement("a");
-                        botao.classList.add("botao");
-                        botao.href = livro.link;
-                        botao.textContent = `${livro.titulo} - ${livro.autor} ✨️`;
-                        botao.target = "_blank";
-                        container.appendChild(botao);
-                    });
-                } catch (error) {
-                    console.error("Erro ao carregar os livros:", error);
-                }
-            }
-        
-            carregarLivrosWTT();
-            carregarLivrosAMZ();
-        </script>
-        
+        <div class="corpo">
+            <p class="tema"><strong>Amazon</strong></p>
+            <div id="livros-container-amz"></div>
+
+            <p class="tema"><strong>Wattpad</strong></p>
+            <div id="livros-container-wtt"></div>
+        </div>        
     </div>
 
     <!-- Versão Desktop -->
@@ -113,6 +69,9 @@
             }
         </script>
     </div>
+
+    <!-- Importa o script JS externo -->
+    <script type="module" src="./js/script.js"></script>
 
 </body>
 </html>
