@@ -1,148 +1,176 @@
 [
-    {
-      "titulo": "Amores de Verão",
-      "autor": "Mariana Martins",
-      "link": "https://amzn.to/4idyOtb"
-    },
-    {
-      "titulo": "THORN: Entre Garras e Sangue",
-      "autor": "Ivy Matarazzo",
-      "link": "https://amzn.to/4ki0sao"
-    },
-    {
-      "titulo": "Judas",
-      "autor": "Larissa Abreu",
-      "link": "https://amzn.to/3ERyQbV"
-    },
-    {
-      "titulo": "Designado ao Capo",
-      "autor": "M.Colchero",
-      "link": "https://amzn.to/3QxClH1"
-    },
-    {
-      "titulo": "Perfeitamente Proibido",
-      "autor": "T.M.Kechichian",
-      "link": "https://amzn.to/4khwItX"
-    },
-    {
-      "titulo": "O Açougueiro de Saint-Lumiére",
-      "autor": "Marianna Chio",
-      "link": "https://amzn.to/3XlxYSW"
-    },
-    {
-      "titulo": "Em Chamas: Contos de Paixão",
-      "autor": "B.S.Oliver",
-      "link": "https://amzn.to/41iW56h"
-    },
-    {
-      "titulo": "Elevador",
-      "autor": "Lia Mendes",
-      "link": "https://amzn.to/43ewoGq"
-    },
-    {
-      "titulo": "Inimizade Colorida",
-      "autor": "Tatiane Biasi",
-      "link": "https://amzn.to/41ybh0G"
-    },
-    {
-      "titulo": "Nossas Almas Famintas",
-      "autor": "Camila Koengkan",
-      "link": "https://amzn.to/43gVNzd"
-    },
-    {
-      "titulo": "Sakura, Quando te Encontrei",
-      "autor": "Thalissa Betineli",
-      "link": "https://amzn.to/438u1F9"
-    },
-    {
-      "titulo": "Suisen, Quando te Roubei",
-      "autor": "Thalissa Betineli",
-      "link": "https://amzn.to/4ifHejw"
-    },
-    {
-      "titulo": "My Dark Heart",
-      "autor": "Alice Bacivangi",
-      "link": "https://amzn.to/4bhj6uF"
-    },
-    {
-      "titulo": "Um Acordo Inesperado",
-      "autor": "Luiza Luz",
-      "link": "https://amzn.to/4hZi5KA"
-    },
-    {
-      "titulo": "Além de um Desejo",
-      "autor": "YLA",
-      "link": "https://amzn.to/3D4qlJZ"
-    },
-    {
-      "titulo": "Eu te Conheço de Outros Carnavais",
-      "autor": "K.M.Stephen",
-      "link": "https://amzn.to/41vyws8"
-    },
-    {
-      "titulo": "Eterna: Corvos e Corujas",
-      "autor": "Camila A. Segatto",
-      "link": "https://amzn.to/41j2nCE"
-    },
-    {
-      "titulo": "Meu Querido Escritor",
-      "autor": "L.S. Santos",
-      "link": "https://amzn.to/4kkRmta"
-    },
-    {
-      "titulo": "Love In The Dark",
-      "autor": "Ellie Morgan",
-      "link": "https://amzn.to/3CWB9Kc"
-    },
-    {
-      "titulo": "Partes Minhas Que Te Pertencem",
-      "autor": "A.C.Z",
-      "link": "https://amzn.to/40aRyTU"
-    },
-    {
-      "titulo": "Partes Minhas Que Me Atormentam",
-      "autor": "A.C.Z",
-      "link": "https://amzn.to/3VYWl8C"
-    },
-    {
-      "titulo": "Você, Meu Amor",
-      "autor": "A.C.Z",
-      "link": "https://amzn.to/49Ywvr8"
-    },
-    {
-      "titulo": "Cessar Fogo",
-      "autor": "Aurora Silver",
-      "link": "https://amzn.to/41f00kt"
-    },
-    {
-      "titulo": "Prazer Pecaminoso",
-      "autor": "Mila Santos",
-      "link": "https://amzn.to/4bkqmGm"
-    },
-    {
-      "titulo": "Os Segredos de Helena",
-      "autor": "Flora Laet",
-      "link": "https://amzn.to/41mDfLu"
-    },
-    {
-      "titulo": "Uma Dama na Guerra",
-      "autor": "Nanda Augusto",
-      "link": "https://amzn.to/4kcCCfY"
-    },
-    {
-      "titulo": "Protegida pela Fera",
-      "autor": "Nanda Augusto",
-      "link": "https://amzn.to/41AOl0J"
-    },
-    {
-      "titulo": "Lucca: nas sombras de uma obsessão",
-      "autor": "Emah Post",
-      "link": "https://amzn.to/4kkv1Mj"
-    },
-    {
-      "titulo": "Incipiens",
-      "autor": "Jessica do Nascimento",
-      "link": "https://amzn.to/4hYIkR1"
-    }
-  ]
-  
+  {
+    "titulo": "Amores de Verão",
+    "autor": "Mariana Martins",
+    "link": "https://amzn.to/4idyOtb",
+    "genero": ["Comédia Romântica", "Dark Romance"]
+  },
+  {
+    "titulo": "THORN: Entre Garras e Sangue",
+    "autor": "Ivy Matarazzo",
+    "link": "https://amzn.to/4ki0sao",
+    "genero": ["Fantasia"]
+  },
+  {
+    "titulo": "Judas",
+    "autor": "Larissa Abreu",
+    "link": "https://amzn.to/3ERyQbV",
+    "genero": ["Dark Romance"]
+  },
+  {
+    "titulo": "Designado ao Capo",
+    "autor": "M.Colchero",
+    "link": "https://amzn.to/3QxClH1",
+    "genero": ["Máfia", "Dark Romance"]
+  },
+  {
+    "titulo": "Perfeitamente Proibido",
+    "autor": "T.M.Kechichian",
+    "link": "https://amzn.to/4khwItX",
+    "genero": ["Romance Clichê"]
+  },
+  {
+    "titulo": "O Açougueiro de Saint-Lumiére",
+    "autor": "Marianna Chio",
+    "link": "https://amzn.to/3XlxYSW",
+    "genero": ["Dark Romance", "Thriller"]
+  },
+  {
+    "titulo": "Em Chamas: Contos de Paixão",
+    "autor": "B.S.Oliver",
+    "link": "https://amzn.to/41iW56h",
+    "genero": ["Contos Eróticos"]
+  },
+  {
+    "titulo": "Elevador",
+    "autor": "Lia Mendes",
+    "link": "https://amzn.to/43ewoGq",
+    "genero": ["Romance"]
+  },
+  {
+    "titulo": "Inimizade Colorida",
+    "autor": "Tatiane Biasi",
+    "link": "https://amzn.to/41ybh0G",
+    "genero":["Comédia Romântica"]
+  },
+  {
+    "titulo": "Nossas Almas Famintas",
+    "autor": "Camila Koengkan",
+    "link": "https://amzn.to/43gVNzd",
+    "genero":["Stalker Romance"]
+  },
+  {
+    "titulo": "Sakura, Quando te Encontrei",
+    "autor": "Thalissa Betineli",
+    "link": "https://amzn.to/438u1F9",
+    "genero":["Romance"]
+  },
+  {
+    "titulo": "Suisen, Quando te Roubei",
+    "autor": "Thalissa Betineli",
+    "link": "https://amzn.to/4ifHejw",
+    "genero":["Romance"]
+  },
+  {
+    "titulo": "My Dark Heart",
+    "autor": "Alice Bacivangi",
+    "link": "https://amzn.to/4bhj6uF",
+    "genero": ["Stalker Romance"]
+  },
+  {
+    "titulo": "Um Acerto Inesperado",
+    "autor": "Luiza Luz",
+    "link": "https://amzn.to/4hZi5KA",
+    "genero": ["Comédia Romântica"]
+  },
+  {
+    "titulo": "Além de um Desejo",
+    "autor": "YLA",
+    "link": "https://amzn.to/3D4qlJZ",
+    "genero":["Romance"]
+  },
+  {
+    "titulo": "Eu te Conheço de Outros Carnavais",
+    "autor": "K.M.Stephen",
+    "link": "https://amzn.to/41vyws8",
+    "genero": ["New Adult"]
+  },
+  {
+    "titulo": "Eterna: Corvos e Corujas",
+    "autor": "Camila A. Segatto",
+    "link": "https://amzn.to/41j2nCE",
+    "genero":["Romance", "Fantasia"]
+  },
+  {
+    "titulo": "Meu Querido Escritor",
+    "autor": "L.S. Santos",
+    "link": "https://amzn.to/4kkRmta",
+    "genero":["Comédia Romântica"]
+  },
+  {
+    "titulo": "Love In The Dark",
+    "autor": "Ellie Morgan",
+    "link": "https://amzn.to/3CWB9Kc",
+    "genero":["Dark Romance"]
+  },
+  {
+    "titulo": "Partes Minhas Que Te Pertencem",
+    "autor": "A.C.Z",
+    "link": "https://amzn.to/40aRyTU",
+    "genero":["Poesia"]
+  },
+  {
+    "titulo": "Partes Minhas Que Me Atormentam",
+    "autor": "A.C.Z",
+    "link": "https://amzn.to/3VYWl8C",
+    "genero":["Poesia"]
+  },
+  {
+    "titulo": "Você, Meu Amor",
+    "autor": "A.C.Z",
+    "link": "https://amzn.to/49Ywvr8",
+    "genero":["Poesia"]
+  },
+  {
+    "titulo": "Cessar Fogo",
+    "autor": "Aurora Silver",
+    "link": "https://amzn.to/41f00kt",
+    "genero":["Romance"]
+  },
+  {
+    "titulo": "Prazer Pecaminoso",
+    "autor": "Mila Santos",
+    "link": "https://amzn.to/4bkqmGm",
+    "genero":["Romance"]
+  },
+  {
+    "titulo": "Os Segredos de Helena",
+    "autor": "Flora Laet",
+    "link": "https://amzn.to/41mDfLu",
+    "genero":["Romance de Época"]
+  },
+  {
+    "titulo": "Uma Dama na Guerra",
+    "autor": "Nanda Augusto",
+    "link": "https://amzn.to/4kcCCfY",
+    "genero": ["Romance de Época"]
+  },
+  {
+    "titulo": "Protegida pela Fera",
+    "autor": "Nanda Augusto",
+    "link": "https://amzn.to/41AOl0J",
+    "genero": ["Romance", "Fantasia"]
+  },
+  {
+    "titulo": "Lucca: nas sombras de uma obsessão",
+    "autor": "Emah Post",
+    "link": "https://amzn.to/4kkv1Mj",
+    "genero":["Romance", "Máfia"]
+  },
+  {
+    "titulo": "Incipiens",
+    "autor": "Jessica do Nascimento",
+    "link": "https://amzn.to/4hYIkR1",
+    "genero":["Romance", "Fantasia"]
+  }
+]
