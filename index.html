@@ -16,12 +16,12 @@
     <div class="mobile-version">
         <header class="cabecalho">
             <img class="logo" src="https://ugc.production.linktr.ee/83ccfbb2-9ddd-4017-9053-0dc460e507b5_8a304dde757052ac77adac8af9c67e94.jpeg" alt="Profile">
-            <p class="title"> <strong>anna carolina • bookgram</strong> </p>
+            <p class="title"><strong>anna carolina • bookgram</strong></p>
             <p class="bio">📖 • é, só falo de livros</p>
             <div class="social-midias">
-                <a href="https://www.instagram.com/readingw.anna?igsh=bnZub245YTQ1a3pj"><img src="./imagens/insta_logo.png" alt="insta_logo"></a>
-                <a href="https://www.tiktok.com/@readingw.annaa?_t=ZM-8uFBzX0D4Ja&_r=1"><img src="./imagens/tiktok_logo.png" alt="tiktok_logo"></a>
-                <a href="https://www.threads.net/@readingw.anna"><img src="./imagens/threads_logo.png" alt="threads_logo"></a>
+                <a href="https://www.instagram.com/readingw.anna?igsh=bnZub245YTQ1a3pj" target="_blank"><img src="./imagens/insta_logo.png" alt="insta_logo"></a>
+                <a href="https://www.tiktok.com/@readingw.annaa?_t=ZM-8uFBzX0D4Ja&_r=1" target="_blank"><img src="./imagens/tiktok_logo.png" alt="tiktok_logo"></a>
+                <a href="https://www.threads.net/@readingw.anna" target="_blank"><img src="./imagens/threads_logo.png" alt="threads_logo"></a>
             </div>
         </header>
 
@@ -30,16 +30,21 @@
             <input type="text" id="search-bar" placeholder="Buscar livro ou autor(a)...">
         </div>
 
+        <!-- Dropdown de gênero embaixo do campo de busca -->
+        <div class="genre-container">
+            <select id="genre-select">
+                <option value="">Todos os gêneros</option>
+            </select>
+        </div>
+
         <div class="corpo">
             <div class="others-links">
-                <a href="https://amzn.to/3XjzeWM" class="botao ku">Assine o Kindle Unlimited!</a>
+                <a href="https://amzn.to/3XjzeWM" class="botao ku" target="_blank">Assine o Kindle Unlimited!</a>
             </div>
 
+            <!-- Seção AMAZON -->
             <p class="tema"><strong>Amazon</strong></p>
             <div id="livros-container-amz"></div>
-
-            <p class="tema"><strong>Wattpad</strong></p>
-            <div id="livros-container-wtt"></div>
         </div>        
     </div>
 
@@ -48,18 +53,18 @@
         <div class="menu">
             <!--Opções de acesso-->
 
-            <div class="toggle"><img src="./imagens/Logo.png"/></div>
+            <div class="toggle"><img src="./imagens/Logo.png" alt="Logo"/></div>
             <li style="--i:0;">
-                <a href="mailto:readingw.anna@gmail.com " title="Contate pelo E-mail"><ion-icon name="at-outline"></ion-icon></a>
+                <a href="mailto:readingw.anna@gmail.com" title="Contate pelo E-mail"><ion-icon name="at-outline"></ion-icon></a>
             </li>
             <li style="--i:1;">
-                <a href="https://www.instagram.com/readingw.anna?igsh=bnZub245YTQ1a3pj" title="Acompanhe no Insta!"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.instagram.com/readingw.anna?igsh=bnZub245YTQ1a3pj" title="Acompanhe no Insta!" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
             </li>
             <li style="--i:2;">
-                <a href="https://www.tiktok.com/@readingw.annaa?_t=ZM-8uFBzX0D4Ja&_r=1" title="Acompanhe no TikTok!"><ion-icon name="logo-tiktok"></ion-icon></a>
+                <a href="https://www.tiktok.com/@readingw.annaa?_t=ZM-8uFBzX0D4Ja&_r=1" title="Acompanhe no TikTok!" target="_blank"><ion-icon name="logo-tiktok"></ion-icon></a>
             </li>
             <li style="--i:3;">
-                <a href="https://drive.google.com/file/d/1gL7e5EQ5L4kF5JEIGPHdYoX80mpD8rpc/view?usp=drivesdk " title="Midia Kit!"><ion-icon name="bag-handle-outline"></ion-icon></a>
+                <a href="https://drive.google.com/file/d/1gL7e5EQ5L4kF5JEIGPHdYoX80mpD8rpc/view?usp=drivesdk" title="Midia Kit!" target="_blank"><ion-icon name="bag-handle-outline"></ion-icon></a>
             </li>
         </div>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -76,6 +81,5 @@
 
     <!-- Importa o script JS externo -->
     <script type="module" src="./js/script.js"></script>
-
 </body>
 </html>
