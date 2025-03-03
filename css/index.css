@@ -38,7 +38,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        background: linear-gradient(45deg, #7F9FCC, #AACDF3, #5D8EC6, #82AFE1);
+        background: linear-gradient(45deg, #ffcfe0, #ffa6c9, #ff8ead, #ff7198);
         background-size: 300% 300%;
         animation: morphGradient 15s infinite ease-in-out;
         min-height: 100vh;
@@ -126,24 +126,24 @@
         background-color: #ffffff;
         color: #000;
         text-decoration: none;
-        box-shadow: 6px 6px 0px #63a2ff, 6px 6px 0px 2px #63a2ff;
+        box-shadow: 6px 6px 0px #c53c6c, 6px 6px 0px 2px #c53c6c;
         position: relative;
         transition: all 0.2s ease-in-out;
-        border: 2px solid #63a2ff;
+        border: 2px solid #c53c6c;
     }
     
     .botao:hover {
-        box-shadow: 3px 3px 0px #63a2ff, 3px 3px 0px 2px #63a2ff;
+        box-shadow: 3px 3px 0px #c53c6c, 3px 3px 0px 2px #c53c6c;
         transform: translate(3px, 3px);
     }
 
     .ku{
-        box-shadow: 6px 6px 0px #1e229e, 6px 6px 0px 2px #1e229e; 
-        border: 2px solid #1e229e;
+        box-shadow: 6px 6px 0px #6f0128, 6px 6px 0px 2px #6f0128; 
+        border: 2px solid #6f0128;
     }
     
     .ku:hover{
-        box-shadow: 3px 3px 0px #1e229e, 3px 3px 0px 2px #1e229e;
+        box-shadow: 3px 3px 0px #6f0128, 3px 3px 0px 2px #6f0128;
     }
 
     /* Container para input de busca */
@@ -212,7 +212,7 @@
         align-items: center;
         font-family: Arial, sans-serif;
         color: #333;
-        background: linear-gradient(45deg, #9FC4E3, #E1FFFF, #A1D2E6, #BFE3FF);
+        background: linear-gradient(45deg, #ffcfe0, #ffa6c9, #ff8ead, #ff7198);
         background-size: 300% 300%;
         animation: morphGradient 15s infinite ease-in-out;
     }
