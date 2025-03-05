@@ -172,5 +172,17 @@
     "autor": "Jessica do Nascimento",
     "link": "https://amzn.to/4hYIkR1",
     "genero":["Romance", "Fantasia"]
+  },
+  {
+    "titulo": "Nossa Trilha Sonora - Parte 01",
+    "autor": "Laura Colb",
+    "link": "https://amzn.to/4imWtHE",
+    "genero":["Romance"]
+  },
+  {
+    "titulo": "Nossa Trilha Sonora - Parte 02",
+    "autor": "Laura Colb",
+    "link": "https://amzn.to/4i9iwlC",
+    "genero": ["Romance"]
   }
 ]
