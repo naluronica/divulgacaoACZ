@@ -27,7 +27,7 @@
     "titulo": "Perfeitamente Proibido",
     "autor": "T.M.Kechichian",
     "link": "https://amzn.to/4khwItX",
-    "genero": ["Romance Clichê"]
+    "genero": ["Romance Clichê", "Romance Proibido"]
   },
   {
     "titulo": "O Açougueiro de Saint-Lumiére",
@@ -183,6 +183,24 @@
     "titulo": "Nossa Trilha Sonora - Parte 02",
     "autor": "Laura Colb",
     "link": "https://amzn.to/4i9iwlC",
+    "genero": ["Romance"]
+  },
+  {
+    "titulo": "Obsessão Sangria",
+    "autor": "S.M. Silveira",
+    "link": "https://amzn.to/43qlrl5",
+    "genero": ["Dark Romance", "Fantasia"]
+  },
+  {
+    "titulo": "Proibida para o Doutor Arrogante",
+    "autor": "Bianca Alencar",
+    "link": "https://amzn.to/4hltV05",
+    "genero": ["Romance Proibido"]
+  },
+  {
+    "titulo": "No Fundo é Amor",
+    "autor": "Ali Hazelwood",
+    "link": "https://amzn.to/3XAmTh0",
     "genero": ["Romance"]
   }
 ]
