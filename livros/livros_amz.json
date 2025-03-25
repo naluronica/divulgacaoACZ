@@ -226,5 +226,29 @@
     "autor": "Michelle Passos",
     "link": "https://amzn.to/4kUWODD",
     "genero": ["Fake Dating", "Romance"]
+  },
+  {
+    "titulo": "Boas Intenções (Willow University Livro 1)",
+    "autor": "Nathami",
+    "link": "https://amzn.to/4iTfVMu",
+    "genero": ["Romance", "New Adult", "Found Family"]
+  },
+  {
+    "titulo": "Acidentalmente Casados",
+    "autor": "Luana Magalhães",
+    "link": "https://amzn.to/4iDDGbN",
+    "genero": ["Comédia Romântica", "Fake Dating"]
+  },
+  {
+    "titulo": "Tempestade de Ônix",
+    "autor": "Rebecca Yarros",
+    "link": "https://amzn.to/4hMeDSx",
+    "genero": ["Romance", "Fantasia"]
+  },
+  {
+    "titulo": "Amor por acidente",
+    "autor": "Olivia Uviplais",
+    "link": "https://amzn.to/4hOWROt",
+    "genero": ["Romance"]
   }
 ]
