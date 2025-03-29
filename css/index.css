@@ -93,13 +93,14 @@
         white-space: nowrap;
     }
     
-    .social-midias img {
-        width: 30px;
-        height: auto;
+    .social-midias i {
+        font-size: 25px;
+        color: #000;
         transition: transform 0.1s ease-out;
+        display: inline-block;
     }
     
-    .social-midias img:hover {
+    .social-midias i:hover {
         transform: scale(1.1);
     }
 
@@ -269,7 +270,7 @@
         transform: rotate(calc(360deg / -4 * var(--i)));
         box-shadow: 0 3px 4px rgba(0,0,0, 0.15);
         color: #333;
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     .toggle{
@@ -288,7 +289,7 @@
     }
     
     .toggle img {
-        max-width: 200%;
+        max-width: 150%;
         height: auto;
     }
     
