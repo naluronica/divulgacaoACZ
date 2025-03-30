@@ -86,7 +86,7 @@ function renderizarLivros() {
     const botao = document.createElement("a");
     botao.classList.add("botao");
     botao.href = livro.link;
-    botao.textContent = `${livro.titulo} - ${livro.autor} 🌟`;
+    botao.textContent = `${livro.titulo} - ${livro.autor} 💫`;
     botao.target = "_blank";
     containerAMZ.appendChild(botao);
   });
