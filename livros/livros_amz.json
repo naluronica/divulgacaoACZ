@@ -287,10 +287,28 @@
     "link": "https://amzn.to/4l4ZhLT",
     "genero": ["Romance"]
   },
-    {
+  {
     "titulo": "Além das Cicatrizes - Entre amor e coragem",
     "autor": "Ane Markov",
     "link": "https://a.co/d/cpxHzDG",
+    "genero": ["Romance Drama"]
+  },
+  {
+    "titulo": "A Melodia dos Nossos Segredos",
+    "autor": "Bruna Pallazzo",
+    "link": "https://amzn.to/42lcMiZ",
     "genero": ["Romance"]
+  },
+  {
+    "titulo": "Nosso Acordo (Im)perfeito: Rebel Hockey - Livro 1",
+    "autor": "Maya Passos",
+    "link": "https://amzn.to/4iRkiIk",
+    "genero": ["Romance"]
+  },
+  {
+    "titulo": "As Wicked As You Are (As You Are Livro 1) (Duologia As You Are)",
+    "autor": "Samantha G.",
+    "link": "https://amzn.to/4hRws2w",
+    "genero": ["Romance Drama"]
   }
 ]
