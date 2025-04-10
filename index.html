@@ -1,91 +1,103 @@
 <!DOCTYPE html>
 <html lang="br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>anna carolina • bookgram</title>
-    <!-- Link para o CSS responsivo -->
-    <link rel="stylesheet" href="./css/index.css">
-    <!-- Ícone da guia da página -->
-    <link rel="icon" href="./imagens/Logo.png">
-    <!-- Fonte -->
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
-    <!--Icones-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>anna carolina • bookgram</title>
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Quicksand&display=swap" rel="stylesheet" />
+
+  <!-- Estilo -->
+  <link rel="stylesheet" href="./css/index.css" />
+
+  <!-- Ícone -->
+  <link rel="icon" href="./imagens/Logo.png" />
+
+  <!-- Ícones Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
 </head>
 <body>
-    <!-- Versão Mobile -->
-    <div class="mobile-version">
-        <header class="cabecalho">
-            <img class="logo" src="./imagens/foto perfil.jpeg" alt="Profile">
-            <p class="title"><strong>anna carolina • booktok</strong></p>
-            <p class="bio">📖 • é, posso indicar sua próxima leitura</p>
-            <div class="social-midias">
-                <a href="https://www.instagram.com/readingw.anna?igsh=bnZub245YTQ1a3pj" target="_blank"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.tiktok.com/@readingw.anna?_t=ZM-8v6NLu3SEmT&_r=1" target="_blank"><i class="bi bi-tiktok"></i></a>
-                <a href="https://www.threads.net/@readingw.anna" target="_blank"><i class="bi bi-threads"></i></a>
-            </div>
-        </header>
 
-        <!-- Campo de busca -->
-        <div class="search-container">
-            <input type="text" id="search-bar" placeholder="Buscar livro ou autor(a)...">
-        </div>
+  <!-- Versão Mobile -->
+  <div class="mobile-version">
+    <header class="cabecalho">
+      <img class="logo" src="./imagens/foto perfil.jpeg" alt="Profile" />
+      <p class="title"><strong>anna carolina • booktok</strong></p>
+      <p class="bio">📖 • é, posso indicar sua próxima leitura</p>
+      <div class="social-midias">
+        <a href="https://www.instagram.com/readingw.anna?igsh=bnZub245YTQ1a3pj" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.tiktok.com/@readingw.anna?_t=ZM-8v6NLu3SEmT&_r=1" target="_blank"><i class="bi bi-tiktok"></i></a>
+        <a href="https://www.threads.net/@readingw.anna" target="_blank"><i class="bi bi-threads"></i></a>
+      </div>
+    </header>
 
-        <!-- Dropdown de gênero embaixo do campo de busca -->
-        <div class="genre-container">
-            <select id="genre-select">
-                <option value="">Todos os gêneros</option>
-            </select>
-        </div>
-
-        <div class="corpo">
-            <div class="others-links">
-                <a href="https://amzn.to/3XjzeWM" class="botao ku" target="_blank">Assine o Kindle Unlimited!</a>
-            </div>
-
-            <!-- Seção AMAZON -->
-            <p class="tema"><strong>Amazon</strong></p>
-            <div id="livros-container-amz"></div>
-        </div>   
-        
-        <!-- Rodapé -->
-        <footer style="text-align: center; margin: 20px 0; font-size: 10px;">
-            <p>Copyright &copy; naluronica & carola</p>
-        </footer>
-
+    <!-- Campo de busca -->
+    <div class="search-container">
+      <input type="text" id="search-bar" placeholder="Buscar livro ou autor(a)..." />
     </div>
 
-    <!-- Versão Desktop -->
-    <div class="desktop-version">
-        <div class="menu">
-            <!--Opções de acesso-->
-
-            <div class="toggle"><img src="./imagens/Logo.png" alt="Logo"/></div>
-            <li style="--i:0;">
-                <a href="mailto:readingw.anna@gmail.com" title="Contate pelo E-mail"><i class="bi bi-envelope-heart-fill"></i></a>
-            </li>
-            <li style="--i:1;">
-                <a href="https://www.instagram.com/readingw.anna?igsh=bnZub245YTQ1a3pj" title="Acompanhe no Insta!" target="_blank"><i class="bi bi-instagram"></i></a>
-            </li>
-            <li style="--i:2;">
-                <a href="https://www.tiktok.com/@readingw.anna?_t=ZM-8v6NLu3SEmT&_r=1" title="Acompanhe no TikTok!" target="_blank"><i class="bi bi-tiktok"></i></a>
-            </li>
-            <li style="--i:3;">
-                <a href="https://drive.google.com/file/d/1gL7e5EQ5L4kF5JEIGPHdYoX80mpD8rpc/view?usp=drivesdk" title="Midia Kit!" target="_blank"><i class="bi bi-bag-heart-fill"></i></a>
-            </li>
-        </div>
-        <script>
-            let toggle = document.querySelector('.toggle');
-            let menu = document.querySelector('.menu');
-
-            toggle.onclick = function () {
-                menu.classList.toggle('active');
-            }
-        </script>
+    <!-- Dropdown de gênero -->
+    <div class="genre-container">
+      <select id="genre-select">
+        <option value="">Todos os gêneros</option>
+      </select>
     </div>
 
-    <!-- Importa o script JS externo -->
-    <script type="module" src="./js/script.js"></script>
+    <div class="corpo">
+      <div class="others-links">
+        <a href="https://amzn.to/3XjzeWM" class="botao ku" target="_blank">Kindle Unlimited gratuito por 30 dias 🌻</a>
+      </div>
+
+      <!-- Lista de livros -->
+      <div id="livros-container-amz"></div>
+    </div>
+
+    <footer style="text-align: center; margin: 20px 0; font-size: 10px;">
+      <p>Copyright &copy; naluronica & carola</p>
+    </footer>
+  </div>
+
+  <!-- Versão Desktop -->
+  <div class="desktop-version">
+    <div class="menu">
+      <div class="toggle"><img src="./imagens/Logo.png" alt="Logo" /></div>
+      <li style="--i:0;">
+        <a href="mailto:readingw.anna@gmail.com" title="Contate pelo E-mail"><i class="bi bi-envelope-heart-fill"></i></a>
+      </li>
+      <li style="--i:1;">
+        <a href="https://www.instagram.com/readingw.anna?igsh=bnZub245YTQ1a3pj" title="Acompanhe no Insta!" target="_blank"><i class="bi bi-instagram"></i></a>
+      </li>
+      <li style="--i:2;">
+        <a href="https://www.tiktok.com/@readingw.anna?_t=ZM-8v6NLu3SEmT&_r=1" title="Acompanhe no TikTok!" target="_blank"><i class="bi bi-tiktok"></i></a>
+      </li>
+      <li style="--i:3;">
+        <a href="https://drive.google.com/file/d/1gL7e5EQ5L4kF5JEIGPHdYoX80mpD8rpc/view?usp=drivesdk" title="Midia Kit!" target="_blank"><i class="bi bi-bag-heart-fill"></i></a>
+      </li>
+    </div>
+    <script>
+      let toggle = document.querySelector('.toggle');
+      let menu = document.querySelector('.menu');
+      toggle.onclick = function () {
+        menu.classList.toggle('active');
+      }
+    </script>
+  </div>
+
+    <!-- Pop-up (exibido apenas no mobile via CSS e JS) -->
+    <div id="popup-container" class="popup">
+        <div class="popup-content">
+        <button class="fechar-popup" id="fechar-popup">×</button>
+        <p class="popup-texto">
+            <strong>Todos os livros estão disponíveis no Kindle Unlimited!</strong><br><br>
+            São todos nacionais — ou seja, nada de pirataria ❤️<br><br>
+            E o melhor: você pode aproveitar 30 dias grátis de leitura com o Kindle Unlimited (válido apenas para contas que ainda não usaram o benefício).
+        </p>
+        </div>
+    </div>
+  
+
+  <!-- Script JS -->
+  <script type="module" src="./js/script.js"></script>
 </body>
 </html>
