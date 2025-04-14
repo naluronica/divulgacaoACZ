@@ -312,15 +312,21 @@
     "genero": ["Romance Drama"]
   },
   {
-    "titulo": "Um recomeço para o CEO",
-    "autor": "Raphaela Fagundes",
-    "link": "https://amzn.to/4lrj1JI",
-    "genero": ["Romance", "Romance Proibido"]
-  },
-  {
     "titulo": "Garotos Cruéis Perseguem Você",
     "autor": "Red R.",
     "link": "https://amzn.to/4jkx5mq",
     "genero": ["Dark Romance"]
+  },
+  {
+    "titulo": "A Máscara do Mafioso",
+    "autor": "Nàna Páuvoli",
+    "link": "https://amzn.to/3EmttkY",
+    "genero": ["Dark Romance", "Máfia"]
+  },
+  {
+    "titulo": "Rendida ao Mafioso (Império Salvatore)",
+    "autor": "Brenda Ripardo",
+    "link": "https://amzn.to/3ElpCEK",
+    "genero": ["Máfia", "Romance"]
   }
 ]
