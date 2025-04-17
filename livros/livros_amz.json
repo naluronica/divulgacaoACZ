@@ -198,12 +198,6 @@
     "genero": ["Romance Proibido"]
   },
   {
-    "titulo": "No Fundo é Amor",
-    "autor": "Ali Hazelwood",
-    "link": "https://amzn.to/3XAmTh0",
-    "genero": ["Romance"]
-  },
-  {
     "titulo": "Over the Ice (The Stalker)",
     "autor": "Fernanda Carrera",
     "link": "https://amzn.to/4icKzjO",
@@ -238,12 +232,6 @@
     "autor": "Luana Magalhães",
     "link": "https://amzn.to/4iDDGbN",
     "genero": ["Comédia Romântica"]
-  },
-  {
-    "titulo": "Tempestade de Ônix",
-    "autor": "Rebecca Yarros",
-    "link": "https://amzn.to/4hMeDSx",
-    "genero": ["Romance", "Fantasia"]
   },
   {
     "titulo": "Amor por Acidente",
@@ -328,5 +316,11 @@
     "autor": "Brenda Ripardo",
     "link": "https://amzn.to/3ElpCEK",
     "genero": ["Máfia", "Romance"]
+  },
+  {
+    "titulo": "Rejeitada Grávida pelo Texano",
+    "autor": "Bárbara Lorrany",
+    "link": "https://amzn.to/42Mci5A",
+    "genero": ["Romance"]
   }
 ]
