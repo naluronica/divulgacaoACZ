@@ -21,7 +21,7 @@
     "titulo": "Designado ao Capo",
     "autor": "M.Colchero",
     "link": "https://amzn.to/3QxClH1",
-    "genero": ["Máfia", "Dark Romance"]
+    "genero": ["Romance de Máfia", "Dark Romance"]
   },
   {
     "titulo": "Perfeitamente Proibido",
@@ -165,7 +165,7 @@
     "titulo": "Lucca: nas sombras de uma obsessão",
     "autor": "Emah Post",
     "link": "https://amzn.to/4kkv1Mj",
-    "genero":["Romance", "Máfia"]
+    "genero":["Romance", "Romance de Máfia"]
   },
   {
     "titulo": "Incipiens",
@@ -249,7 +249,7 @@
     "titulo": "Cativa do Subchefe",
     "autor": "M. Colchero",
     "link": "https://amzn.to/3DVoCHg",
-    "genero": ["Máfia", "Dark Romance"]
+    "genero": ["Romance de Máfia", "Dark Romance"]
   },
   {
     "titulo": "NOMAD: Night Reapers - MC- SPIN OFF",
@@ -309,13 +309,13 @@
     "titulo": "A Máscara do Mafioso",
     "autor": "Nàna Páuvoli",
     "link": "https://amzn.to/3EmttkY",
-    "genero": ["Dark Romance", "Máfia"]
+    "genero": ["Dark Romance", "Romance de Máfia"]
   },
   {
     "titulo": "Rendida ao Mafioso (Império Salvatore)",
     "autor": "Brenda Ripardo",
     "link": "https://amzn.to/3ElpCEK",
-    "genero": ["Máfia", "Romance"]
+    "genero": ["Romance de Máfia", "Romance"]
   },
   {
     "titulo": "Rejeitada Grávida pelo Texano",
@@ -327,6 +327,18 @@
     "titulo": "Antes que o Tempo Acabe",
     "autor": "Ivy Matarazzo",
     "link": "https://amzn.to/3Y8W6J6",
+    "genero": ["Romance"]
+  },
+  {
+    "titulo": "Além do sangue e da honra",
+    "autor": "Sabri Giacomelli",
+    "link": "https://amzn.to/4jOnNz6",
+    "genero": ["Dark Romance", "Romance de Máfia"]
+  },
+  {
+    "titulo": "SOMENTE MINHA: MESMO QUE NÃO POSSA SER",
+    "autor": "Liz Tourinho",
+    "link": "https://amzn.to/42RYJQV",
     "genero": ["Romance"]
   }
 ]
