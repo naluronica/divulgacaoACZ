@@ -36,78 +36,6 @@
     "genero": ["Dark Romance", "Thriller"]
   },
   {
-    "titulo": "Em Chamas: Contos de Paixão",
-    "autor": "B.S.Oliver",
-    "link": "https://amzn.to/41iW56h",
-    "genero": ["Contos Eróticos"]
-  },
-  {
-    "titulo": "Elevador",
-    "autor": "Lia Mendes",
-    "link": "https://amzn.to/43ewoGq",
-    "genero": ["Romance"]
-  },
-  {
-    "titulo": "Inimizade Colorida",
-    "autor": "Tatiane Biasi",
-    "link": "https://amzn.to/41ybh0G",
-    "genero":["Comédia Romântica"]
-  },
-  {
-    "titulo": "Nossas Almas Famintas",
-    "autor": "Camila Koengkan",
-    "link": "https://amzn.to/43gVNzd",
-    "genero":["Stalker Romance"]
-  },
-  {
-    "titulo": "Sakura, Quando te Encontrei",
-    "autor": "Thalissa Betineli",
-    "link": "https://amzn.to/438u1F9",
-    "genero":["Romance"]
-  },
-  {
-    "titulo": "Suisen, Quando te Roubei",
-    "autor": "Thalissa Betineli",
-    "link": "https://amzn.to/4ifHejw",
-    "genero":["Romance"]
-  },
-  {
-    "titulo": "My Dark Heart",
-    "autor": "Alice Bacivangi",
-    "link": "https://amzn.to/4bhj6uF",
-    "genero": ["Stalker Romance"]
-  },
-  {
-    "titulo": "Um Acerto Inesperado",
-    "autor": "Luiza Luz",
-    "link": "https://amzn.to/4hZi5KA",
-    "genero": ["Comédia Romântica"]
-  },
-  {
-    "titulo": "Além de um Desejo",
-    "autor": "YLA",
-    "link": "https://amzn.to/3D4qlJZ",
-    "genero":["Romance"]
-  },
-  {
-    "titulo": "Eu te Conheço de Outros Carnavais",
-    "autor": "K.M.Stephen",
-    "link": "https://amzn.to/41vyws8",
-    "genero": ["Romance Clichê"]
-  },
-  {
-    "titulo": "Eterna: Corvos e Corujas",
-    "autor": "Camila A. Segatto",
-    "link": "https://amzn.to/41j2nCE",
-    "genero":["Romance", "Fantasia"]
-  },
-  {
-    "titulo": "Meu Querido Escritor",
-    "autor": "L.S. Santos",
-    "link": "https://amzn.to/4kkRmta",
-    "genero":["Comédia Romântica"]
-  },
-  {
     "titulo": "Love In The Dark",
     "autor": "Ellie Morgan",
     "link": "https://amzn.to/3CWB9Kc",
@@ -132,84 +60,6 @@
     "genero":["Poesia"]
   },
   {
-    "titulo": "Cessar Fogo",
-    "autor": "Aurora Silver",
-    "link": "https://amzn.to/41f00kt",
-    "genero":["Romance"]
-  },
-  {
-    "titulo": "Prazer Pecaminoso",
-    "autor": "Mila Santos",
-    "link": "https://amzn.to/4bkqmGm",
-    "genero":["Romance"]
-  },
-  {
-    "titulo": "Os Segredos de Helena",
-    "autor": "Flora Laet",
-    "link": "https://amzn.to/41mDfLu",
-    "genero":["Romance de Época"]
-  },
-  {
-    "titulo": "Uma Dama na Guerra",
-    "autor": "Nanda Augusto",
-    "link": "https://amzn.to/4kcCCfY",
-    "genero": ["Romance de Época"]
-  },
-  {
-    "titulo": "Protegida pela Fera",
-    "autor": "Nanda Augusto",
-    "link": "https://amzn.to/41AOl0J",
-    "genero": ["Romance", "Fantasia"]
-  },
-  {
-    "titulo": "Lucca: nas sombras de uma obsessão",
-    "autor": "Emah Post",
-    "link": "https://amzn.to/4kkv1Mj",
-    "genero":["Romance", "Romance de Máfia"]
-  },
-  {
-    "titulo": "Incipiens",
-    "autor": "Jessica do Nascimento",
-    "link": "https://amzn.to/4hYIkR1",
-    "genero":["Romance", "Fantasia"]
-  },
-  {
-    "titulo": "Nossa Trilha Sonora - Parte 01",
-    "autor": "Laura Colb",
-    "link": "https://amzn.to/4imWtHE",
-    "genero":["Romance"]
-  },
-  {
-    "titulo": "Nossa Trilha Sonora - Parte 02",
-    "autor": "Laura Colb",
-    "link": "https://amzn.to/4i9iwlC",
-    "genero": ["Romance"]
-  },
-  {
-    "titulo": "Obsessão Sangria",
-    "autor": "S.M. Silveira",
-    "link": "https://amzn.to/43qlrl5",
-    "genero": ["Dark Romance", "Fantasia"]
-  },
-  {
-    "titulo": "Proibida para o Doutor Arrogante",
-    "autor": "Bianca Alencar",
-    "link": "https://amzn.to/4hltV05",
-    "genero": ["Romance Proibido"]
-  },
-  {
-    "titulo": "Over the Ice (The Stalker)",
-    "autor": "Fernanda Carrera",
-    "link": "https://amzn.to/4icKzjO",
-    "genero": ["Dark Romance", "Stalker Romance"]
-  },
-  {
-    "titulo": "Dark Necessities",
-    "autor": "Corine Gueniévre",
-    "link": "https://amzn.to/4hJnsMS",
-    "genero": ["Dark Romance"]
-  },
-  {
     "titulo": "Entre Chamas e Segredos",
     "autor": "Natália Dias",
     "link": "https://amzn.to/4iSwbxg",
@@ -222,40 +72,10 @@
     "genero": ["Romance Clichê"]
   },
   {
-    "titulo": "Boas Intenções (Willow University Livro 1)",
-    "autor": "Nathami",
-    "link": "https://amzn.to/4iTfVMu",
-    "genero": ["Romance"]
-  },
-  {
-    "titulo": "Acidentalmente Casados",
-    "autor": "Luana Magalhães",
-    "link": "https://amzn.to/4iDDGbN",
-    "genero": ["Comédia Romântica"]
-  },
-  {
-    "titulo": "Amor por Acidente",
-    "autor": "Olivia Uviplais",
-    "link": "https://amzn.to/4hOWROt",
-    "genero": ["Romance"]
-  },
-  {
-    "titulo": "Colisão Proibida",
-    "autor": "Juliana Anferoli",
-    "link": "https://amzn.to/4l4iME9",
-    "genero": ["Dark Romance"]
-  },
-  {
     "titulo": "Cativa do Subchefe",
     "autor": "M. Colchero",
     "link": "https://amzn.to/3DVoCHg",
     "genero": ["Romance de Máfia", "Dark Romance"]
-  },
-  {
-    "titulo": "NOMAD: Night Reapers - MC- SPIN OFF",
-    "autor": "F.Locks",
-    "link": "https://amzn.to/4cf4a0Q",
-    "genero": ["Romance Proibido"]
   },
   {
     "titulo": "Garotas Crueis Merecem Pagar",
@@ -264,39 +84,9 @@
     "genero": ["Dark Romance"]
   },
   {
-    "titulo": "Uma Farsa no Gelo (Entre Amores e Patins Livro 1)",
-    "autor": "Cinthia Freire.",
-    "link": "https://amzn.to/3FOnztc",
-    "genero": ["Romance"]
-  },
-  {
-    "titulo": "AMOR ATRAVÉS DA REDE (Garotas do Vôlei Livro 1)",
-    "autor": "Rose Dream",
-    "link": "https://amzn.to/4l4ZhLT",
-    "genero": ["Romance"]
-  },
-  {
     "titulo": "Além das Cicatrizes - Entre amor e coragem",
     "autor": "Ane Markov",
     "link": "https://a.co/d/cpxHzDG",
-    "genero": ["Romance Drama"]
-  },
-  {
-    "titulo": "A Melodia dos Nossos Segredos",
-    "autor": "Bruna Pallazzo",
-    "link": "https://amzn.to/42lcMiZ",
-    "genero": ["Romance"]
-  },
-  {
-    "titulo": "Nosso Acordo (Im)perfeito: Rebel Hockey - Livro 1",
-    "autor": "Maya Passos",
-    "link": "https://amzn.to/4iRkiIk",
-    "genero": ["Romance"]
-  },
-  {
-    "titulo": "As Wicked As You Are (As You Are Livro 1) (Duologia As You Are)",
-    "autor": "Samantha G.",
-    "link": "https://amzn.to/4hRws2w",
     "genero": ["Romance Drama"]
   },
   {
